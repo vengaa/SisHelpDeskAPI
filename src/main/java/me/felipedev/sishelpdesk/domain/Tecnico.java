@@ -6,7 +6,6 @@ import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
-import me.felipedev.sishelpdesk.Chamado;
 
 @Entity
 public class Tecnico extends Pessoa implements Serializable{

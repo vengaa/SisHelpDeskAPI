@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import me.felipedev.sishelpdesk.Chamado;
+import me.felipedev.sishelpdesk.domain.Chamado;
 import me.felipedev.sishelpdesk.domain.Cliente;
 import me.felipedev.sishelpdesk.domain.Tecnico;
 import me.felipedev.sishelpdesk.domain.enums.Perfil;

@@ -1,4 +1,4 @@
-package me.felipedev.sishelpdesk;
+package me.felipedev.sishelpdesk.domain;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -12,8 +12,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import me.felipedev.sishelpdesk.domain.Cliente;
-import me.felipedev.sishelpdesk.domain.Tecnico;
 import me.felipedev.sishelpdesk.domain.enums.Prioridade;
 import me.felipedev.sishelpdesk.domain.enums.Status;
 
