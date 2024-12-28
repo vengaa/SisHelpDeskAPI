@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import me.felipedev.sishelpdesk.bean.entity.Tecnico;
+import me.felipedev.sishelpdesk.bean.enums.Perfil;
 
 public class TecnicoDTO implements Serializable {
 
@@ -79,8 +80,8 @@ public class TecnicoDTO implements Serializable {
 		this.senha = senha;
 	}
 
-	public Set<Integer> getPerfis() {
-		return perfis;
+	public Set<Perfil> getPerfis() {
+		return perfis.stream().map(x -> Perfil.toEnum(x)).collect(Collectors.toSet());
 	}
 
 	public void setPerfis(Set<Integer> perfis) {
