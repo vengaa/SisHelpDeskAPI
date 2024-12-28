@@ -1,12 +1,19 @@
 package me.felipedev.sishelpdesk.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import me.felipedev.sishelpdesk.Chamado;
 
-public class Tecnico extends Pessoa {
+@Entity
+public class Tecnico extends Pessoa implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 	
+	@OneToMany(mappedBy = "tecnico")
 	private List<Chamado> chamados = new ArrayList<>();
 
 	public Tecnico() {
