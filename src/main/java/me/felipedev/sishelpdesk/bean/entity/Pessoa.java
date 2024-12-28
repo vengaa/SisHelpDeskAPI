@@ -1,4 +1,4 @@
-package me.felipedev.sishelpdesk.domain;
+package me.felipedev.sishelpdesk.bean.entity;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -17,7 +17,7 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import me.felipedev.sishelpdesk.domain.enums.Perfil;
+import me.felipedev.sishelpdesk.bean.enums.Perfil;
 
 @Entity
 public abstract class Pessoa implements Serializable{

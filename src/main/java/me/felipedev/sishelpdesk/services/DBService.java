@@ -5,12 +5,12 @@ import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import me.felipedev.sishelpdesk.domain.Chamado;
-import me.felipedev.sishelpdesk.domain.Cliente;
-import me.felipedev.sishelpdesk.domain.Tecnico;
-import me.felipedev.sishelpdesk.domain.enums.Perfil;
-import me.felipedev.sishelpdesk.domain.enums.Prioridade;
-import me.felipedev.sishelpdesk.domain.enums.Status;
+import me.felipedev.sishelpdesk.bean.entity.Chamado;
+import me.felipedev.sishelpdesk.bean.entity.Cliente;
+import me.felipedev.sishelpdesk.bean.entity.Tecnico;
+import me.felipedev.sishelpdesk.bean.enums.Perfil;
+import me.felipedev.sishelpdesk.bean.enums.Prioridade;
+import me.felipedev.sishelpdesk.bean.enums.Status;
 import me.felipedev.sishelpdesk.repositories.ChamadoRepository;
 import me.felipedev.sishelpdesk.repositories.ClienteRepository;
 import me.felipedev.sishelpdesk.repositories.TecnicoRepository;

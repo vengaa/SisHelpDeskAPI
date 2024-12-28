@@ -1,4 +1,4 @@
-package me.felipedev.sishelpdesk.domain;
+package me.felipedev.sishelpdesk.bean.entity;
 
 import java.io.Serializable;
 import java.util.ArrayList;

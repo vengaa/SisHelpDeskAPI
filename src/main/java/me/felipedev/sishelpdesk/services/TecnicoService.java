@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import me.felipedev.sishelpdesk.domain.Tecnico;
+import me.felipedev.sishelpdesk.bean.entity.Tecnico;
 import me.felipedev.sishelpdesk.repositories.TecnicoRepository;
 
 @Service

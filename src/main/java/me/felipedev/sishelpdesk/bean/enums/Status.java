@@ -1,4 +1,4 @@
-package me.felipedev.sishelpdesk.domain.enums;
+package me.felipedev.sishelpdesk.bean.enums;
 
 public enum Status {
 

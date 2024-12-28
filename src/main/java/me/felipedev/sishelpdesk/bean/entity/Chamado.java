@@ -1,10 +1,11 @@
-package me.felipedev.sishelpdesk.domain;
+package me.felipedev.sishelpdesk.bean.entity;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,8 +13,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import me.felipedev.sishelpdesk.domain.enums.Prioridade;
-import me.felipedev.sishelpdesk.domain.enums.Status;
+import me.felipedev.sishelpdesk.bean.enums.Prioridade;
+import me.felipedev.sishelpdesk.bean.enums.Status;
 
 @Entity
 public class Chamado implements Serializable{

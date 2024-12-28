@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import me.felipedev.sishelpdesk.domain.Tecnico;
+import me.felipedev.sishelpdesk.bean.entity.Tecnico;
 import me.felipedev.sishelpdesk.services.TecnicoService;
 
 @RestController
